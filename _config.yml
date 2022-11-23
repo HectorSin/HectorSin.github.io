@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "밤톨's lab"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+subtitle                 : "나만의 작은 작업 공간"
+name                     : "밤톨"
 description              : "An amazing website."
 url                      : "https://HectorSin.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
