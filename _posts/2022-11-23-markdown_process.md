@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "마크다운 markdown 작성법"
+categories: coding
+tag: [python, markdown, blog]
 ---
 
 
