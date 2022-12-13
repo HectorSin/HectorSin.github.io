@@ -28,3 +28,5 @@ tag: [python, coding, ML]
 # 주성분 분석
 
 ---
+
+1.
