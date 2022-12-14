@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "추천 시스템 기본 - 협업 필터링"
-categories: [ML, coding]
+categories: ML
 tag: [job, ML, python, coding]
 ---
 출처: https://kmhana.tistory.com/31

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "차원축소와 매니폴드 학습"
-categories: [ML, coding]
-tag: [python, coding, ML]
+title: "인공지능 기초 2022-2 텀프로젝트 정리"
+categories: ML
+tag: [python, coding, ML, AI]
 ---
 
 # 인공지능 기초 2022-2 Project Proposer
