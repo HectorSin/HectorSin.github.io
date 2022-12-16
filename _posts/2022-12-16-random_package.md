@@ -3,6 +3,7 @@ layout: posts
 title: "랜덤(random) 모듈"
 categories: Python
 tag: [python, coding, package]
+toc: true
 ---
 
 출처: https://wikidocs.net/79 [왕초보를 위한 Python: 쉽게 풀어 쓴 기초 문법과 실습]

@@ -3,6 +3,7 @@ layout: posts
 title: "[git] 삭제된 폴더, 파일 반영하기"
 categories: coding
 tag: [python, git]
+toc: true
 ---
 
 ### 분명히 로컬에서 삭제한 파일인데 원격에 반영되지 않는 경우가 있다.

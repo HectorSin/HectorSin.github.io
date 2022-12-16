@@ -3,6 +3,7 @@ layout: posts
 title: "인공지능 기초 2022-2 텀프로젝트 정리"
 categories: ML
 tag: [python, coding, ML, AI]
+toc: true
 ---
 
 # 인공지능 기초 2022-2 Project Proposer

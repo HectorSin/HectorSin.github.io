@@ -3,6 +3,7 @@ layout: posts
 title: "자료구조 텀프로젝트"
 categories: Python
 tag: [python, coding, ML]
+toc: true
 ---
 
 # 1팀. 주식시세 차익 알림
