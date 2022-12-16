@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "랜덤(random) 모듈"
 categories: Python
 tag: [python, coding, package]

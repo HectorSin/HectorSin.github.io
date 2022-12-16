@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "[git] 삭제된 폴더, 파일 반영하기"
 categories: coding
 tag: [python, git]

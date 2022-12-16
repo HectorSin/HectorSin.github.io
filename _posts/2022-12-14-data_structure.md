@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "자료구조 텀프로젝트"
 categories: Python
 tag: [python, coding, ML]

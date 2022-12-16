@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "차원축소와 매니폴드 학습"
 categories: ML
 tag: [python, coding, ML]
