@@ -6,9 +6,9 @@ tag: [python, ML, Concept]
 toc: true
 ---
 
-<참조> https://www.youtube.com/watch?v=3jmcHZq3A5s [WelcomeAIOverlords - Simple Explanation of Auto Encoders.]
-
 # 오토인코더와 잠재표현
+
+<참조> https://www.youtube.com/watch?v=3jmcHZq3A5s [WelcomeAIOverlords - Simple Explanation of Auto Encoders.]
 
 ## 배울것들
 

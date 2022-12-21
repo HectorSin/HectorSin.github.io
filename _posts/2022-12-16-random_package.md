@@ -6,9 +6,10 @@ tag: [python, coding, package]
 toc: true
 ---
 
+# 랜덤(random) 모듈
+
 출처: https://wikidocs.net/79 [왕초보를 위한 Python: 쉽게 풀어 쓴 기초 문법과 실습]
 
-# 랜덤(random) 모듈
 파이썬에서의 랜덤(random) 함수
 
 주사위를 던지는 상황을 생각해봅시다. 주사위의 각 면에는 1개에서 6개까지의 눈이 새겨져 있어서, 주사위를 던질 때마다 그 중 하나의 숫자가 선택됩니다.

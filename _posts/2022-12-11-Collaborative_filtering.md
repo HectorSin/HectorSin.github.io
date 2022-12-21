@@ -5,7 +5,6 @@ categories: ML
 tag: [job, ML, python, coding]
 toc: true
 ---
-출처: https://kmhana.tistory.com/31
 
 # 추천 알고리즘의 기본
 > 1. 협업 필터링(Collaborative Filtering)
@@ -55,3 +54,5 @@ toc: true
 >> - 방법 : 행렬분해(Matrix Factorization), SVD, 신경망
 >> - 장점 : 1. Sparse한 데이터도 처리 가능
 >> - 단점 : 1. 결과의 설명력이 낮음
+
+출처: https://kmhana.tistory.com/31
