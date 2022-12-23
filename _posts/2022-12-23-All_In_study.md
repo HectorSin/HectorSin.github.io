@@ -18,19 +18,19 @@ toc: true
 
 # 활동 사진
 
-# <img src="../images/2022-12-23-All_In_study/KakaoTalk_20221116_111349620.jpg" alt="KakaoTalk_20221116_111349620" style="zoom:50%;" />
+# <img src="/images/2022-12-23-All_In_study/KakaoTalk_20221116_111349620.jpg" alt="KakaoTalk_20221116_111349620" style="zoom:50%;" />
 
 11/16 (수) - 첫 활동
 
-<img src="../images/2022-12-23-All_In_study/KakaoTalk_20221123_203921519.jpg" alt="KakaoTalk_20221123_203921519" style="zoom: 25%;" />
+<img src="/images/2022-12-23-All_In_study/KakaoTalk_20221123_203921519.jpg" alt="KakaoTalk_20221123_203921519" style="zoom: 25%;" />
 
 11/23(수) 2번째 활동
 
-<img src="../images/2022-12-23-All_In_study/KakaoTalk_20221130_111247773.jpg" alt="KakaoTalk_20221130_111247773" style="zoom: 50%;" />
+<img src="/images/2022-12-23-All_In_study/KakaoTalk_20221130_111247773.jpg" alt="KakaoTalk_20221130_111247773" style="zoom: 50%;" />
 
 11/30(수) 3번째 활동
 
-<img src="../images/2022-12-23-All_In_study/KakaoTalk_20221206_231430118.jpg" alt="KakaoTalk_20221206_231430118" style="zoom: 50%;" />
+<img src="/images/2022-12-23-All_In_study/KakaoTalk_20221206_231430118.jpg" alt="KakaoTalk_20221206_231430118" style="zoom: 50%;" />
 
 12/7(수) - 4번째 활동
 
@@ -45,8 +45,8 @@ toc: true
 
 > 1. https://hectorsin.github.io/ml/Tree/ [트리 알고리즘 - 신재현]
 > 2. https://jhwannabe.tistory.com/m/9 [트리 알고리즘 - 전장훈]
-> 3. ![머신러닝1차_11.09_1](../images/2022-12-23-All_In_study/머신러닝1차_11.09_1.png)
-> 4. ![머신러닝1차_11.09_2](../images/2022-12-23-All_In_study/머신러닝1차_11.09_2.png)
+> 3. ![머신러닝1차_11.09_1](/images/2022-12-23-All_In_study/머신러닝1차_11.09_1.png)
+> 4. ![머신러닝1차_11.09_2](/images/2022-12-23-All_In_study/머신러닝1차_11.09_2.png)
 > 5. [군집 알고리즘 - 곽세현]
 > 6. https://jhwannabe.tistory.com/11 [비지도 학습 - 전장훈]
 
@@ -56,7 +56,7 @@ toc: true
 
 ## 1. 모각소
 
-![e41ce1e9-b67a-4ec4-8ebe-61bb1ad1c30b1671170023141](../images/2022-12-23-All_In_study/e41ce1e9-b67a-4ec4-8ebe-61bb1ad1c30b1671170023141.jpg)
+![e41ce1e9-b67a-4ec4-8ebe-61bb1ad1c30b1671170023141](/images/2022-12-23-All_In_study/e41ce1e9-b67a-4ec4-8ebe-61bb1ad1c30b1671170023141.jpg)
 
 소프트웨어융합대학 학생 자율학습 모임 - 모각소
 
