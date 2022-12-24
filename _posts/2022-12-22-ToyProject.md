@@ -6,12 +6,11 @@ tag: [python, ML, Project]
 toc: true
 ---
 
-# 0. 영유아 행동인식을 통한 발달평가
+# 1. 영유아 행동인식을 통한 발달평가
 > <데이터셋> - https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=631
 
+# 2. 고양이 감정 분석
 
-# 1 고양이 감정 분석
+# 3. 수화 번역
 
-# 2 .수화 번역
-
-# 3. 인물그림 감정 분석
+# 4. 인물그림 감정 분석
