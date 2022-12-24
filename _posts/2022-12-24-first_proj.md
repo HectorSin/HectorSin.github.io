@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "2023년 1번째 프로젝트"
+title: "영유아 행동인식을 통한 발달평가 - 데이터 개요"
 categories: Project
 tag: [python, ML, Project]
 toc: true
