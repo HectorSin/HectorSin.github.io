@@ -8,6 +8,8 @@ toc: true
 
 > <데이터셋> - https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=631
 
+**서버 환경구축이 힘들어 프로젝트를 미뤘습니다.**
+
 ## 데이터 개요
 ***
 ### 소개
