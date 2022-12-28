@@ -102,3 +102,50 @@ convert_file(number, save_start, trial, feeling, filename)
 # 데이터 크롭
 
 감정 분석에 있어 노이즈 제거를 위해 데이터 크롭을 진행하였다. 머리카락, 옷, 악세서리, 배경등은 감정 분석에 큰 영향을 끼치지 않는다 판단하고 오로지 눈코입 얼굴 표정만으로 학습을 진행하기로 결정.
+
+> [참고] https://www.tutorialspoint.com/how-to-crop-and-save-the-detected-faces-in-opencv-python [How to crop and save the detected faces in OpenCV Python?]
+
+```
+import cv2
+
+def crop_file(emotion, number):
+    for n in range(number):
+        route = 'Training\\{}\\{}1 ({}).jpg'.format(emotion, emotion, n+1)
+        img = cv2.imread(route)
+        print(route)
+        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_alt2.xml')
+        faces = face_cascade.detectMultiScale(gray, 1.2, 4)
+        for (x, y, w, h) in faces:
+            cv2.rectangle(img, (x, y), (x+w, y+h), (0, 0, 255), 2)
+            faces = gray[y:y + h, x:x + w]
+            #cv2.imshow("face",faces)
+            cv2.imwrite('crop\\{}\\{}{}.jpg'.format(emotion, emotion, n+1), faces)
+
+
+crop_file("anger", 53591)
+crop_file("neutrality", 57935)
+crop_file("pleausre", 49198)
+crop_file("sadness", 58526)
+crop_file("unrest", 46495)
+crop_file("upset", 47016)
+crop_file("wound", 54992)
+```
+이때 이미지 크롭을 흑백 사진으로 진행하였는데 이유는 색의 유무에 따라 차원수가 달라지고 차원이 늘어나면 날수록 처리해야하는 데이터 양이 기하급수적으로 늘어나기에 흑백으로 진행하였다.
+(또한 감정에 있어 색은 특수한 경우를 제외하고는 (연극이나 영화의 연출) 분석에 큰 영향을 끼치지 않을꺼라 판단)
+
+<img src="/images/2022-12-28-first_proj/크롭이미지화면.png" alt="크롭이미지화면" style="zoom:80%;" />
+
+또한 크롭한 이미지 중에 위 그림처럼 얼굴을 제대로 추출하지 못한 사진들이 존재한다.
+
+<img src="/images/2022-12-28-first_proj/anger114.jpg" alt="anger114" style="zoom:200%;" />
+
+
+
+이렇게 크롭된 이미지인데 원본이 궁금하여 밑에 업로드하였다.
+
+
+
+![잘못크롭된사진](/images/2022-12-28-first_proj/잘못크롭된사진.png)
+
+자세히 보면 잘못 크롭된 이미지에 눈코입의 윤곽선이 살짝 보이는것을 확인할 수 있다. 처음 opencv로 얼굴 위치를 인식할때 하나의 얼굴만이 아닌 복수의 얼굴좌표를 인식하게 한 다음 잘못 크롭된 이미지들만 삭제하는 방법이 있지만 데이터양이 이미 5만장을 넘어가고 대다수의 이미지가 제대로 크롭되는 것을 확인하였기에 진행하지 않았습니다.
