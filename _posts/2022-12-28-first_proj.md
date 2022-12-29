@@ -25,7 +25,7 @@ toc: true
 
 원본 데이터의 크기가 약 500기가되기에 ssd작업공간에서 작업하기 힘들것으로 파악되어 open cv를 활용하여 JPG파일을 JPEG 파일 형식으로 압축하였다. 이때 CNN 분석에서 JPEG Quality를 20으로 낮춰도 분류 모델에만 사용한다는 가정하에 문제없다는 논문을 읽어 Quality 40으로 압축 진행(데이터 크기가 거의 1/8사이즈로 줄었다)
 
-```{python}
+```
 import cv2
 import os
 import numpy as np
@@ -149,6 +149,36 @@ crop_file("wound", 54992)
 ![잘못크롭된사진](/images/2022-12-28-first_proj/잘못크롭된사진.png)
 
 자세히 보면 잘못 크롭된 이미지에 눈코입의 윤곽선이 살짝 보이는것을 확인할 수 있다. 처음 opencv로 얼굴 위치를 인식할때 하나의 얼굴만이 아닌 복수의 얼굴좌표를 인식하게 한 다음 잘못 크롭된 이미지들만 삭제하는 방법이 있지만 데이터양이 이미 5만장을 넘어가고 대다수의 이미지가 제대로 크롭되는 것을 확인하였기에 진행하지 않았습니다.
+
+# 훈련/테스트 데이터셋 분리
+
+```
+import os
+import shutil
+import random
+
+# n개의 숫자 중 2/3개의 데이터 추출 함수
+def get_num(number):
+    sample = random.sample(range(1,number+1), round(number*2/3)-1)
+    return sample
+
+def get_sample(emotion, number):
+    for num in get_num(number):
+        path = "data\\{}\\{} ({}).jpg".format(emotion, emotion, num)
+        path_to = "data\\Test\\{}\\{} ({}).jpg".format(emotion, emotion, num)
+        shutil.move(path, path_to)
+        
+        if os.path.exists(path_to):
+            print("exists")
+    
+get_sample("anger", 2858)
+get_sample("neutrality", 3077)
+get_sample("pleasure", 2957)
+get_sample("sadness", 2940)
+get_sample("unrest", 3051)
+get_sample("upset", 2926)
+get_sample("wound", 2865)
+```
 
 # 학습 모델 생성
 
