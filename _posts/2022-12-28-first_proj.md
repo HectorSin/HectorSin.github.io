@@ -149,3 +149,10 @@ crop_file("wound", 54992)
 ![잘못크롭된사진](/images/2022-12-28-first_proj/잘못크롭된사진.png)
 
 자세히 보면 잘못 크롭된 이미지에 눈코입의 윤곽선이 살짝 보이는것을 확인할 수 있다. 처음 opencv로 얼굴 위치를 인식할때 하나의 얼굴만이 아닌 복수의 얼굴좌표를 인식하게 한 다음 잘못 크롭된 이미지들만 삭제하는 방법이 있지만 데이터양이 이미 5만장을 넘어가고 대다수의 이미지가 제대로 크롭되는 것을 확인하였기에 진행하지 않았습니다.
+
+# 학습 모델 생성
+
+255사이즈 흑백 얼굴데이터를 크롭한 후 전처리를 마쳤습니다. 베이스 라인 모델 생성 후 CNN을 활용하여 모델 성능 향상을 시도해보겠습니다.
+
+> [참고] https://medium.com/analytics-vidhya/facial-expression-detection-using-machine-learning-in-python-c6a188ac765f [Facial expression detection using Machine Learning in Python]
+
